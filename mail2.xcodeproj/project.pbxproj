@@ -14,6 +14,8 @@
 		C8E537571C7200D50079B582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E537551C7200D50079B582 /* LaunchScreen.storyboard */; };
 		C8E537621C7200D50079B582 /* mail2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E537611C7200D50079B582 /* mail2Tests.swift */; };
 		C8E5376D1C7200D50079B582 /* mail2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5376C1C7200D50079B582 /* mail2UITests.swift */; };
+		C8E5377B1C7202CE0079B582 /* kontaktControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5377A1C7202CE0079B582 /* kontaktControlTableViewController.swift */; };
+		C8E5377D1C7207640079B582 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E5377C1C7207640079B582 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C8E537681C7200D50079B582 /* mail2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mail2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E5376C1C7200D50079B582 /* mail2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mail2UITests.swift; sourceTree = "<group>"; };
 		C8E5376E1C7200D50079B582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E5377A1C7202CE0079B582 /* kontaktControlTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kontaktControlTableViewController.swift; sourceTree = "<group>"; };
+		C8E5377C1C7207640079B582 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E5377D1C7207640079B582 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		C8E537401C7200D50079B582 = {
 			isa = PBXGroup;
 			children = (
+				C8E5377C1C7207640079B582 /* MessageUI.framework */,
 				C8E5374B1C7200D50079B582 /* mail2 */,
 				C8E537601C7200D50079B582 /* mail2Tests */,
 				C8E5376B1C7200D50079B582 /* mail2UITests */,
@@ -103,6 +109,7 @@
 				C8E537531C7200D50079B582 /* Assets.xcassets */,
 				C8E537551C7200D50079B582 /* LaunchScreen.storyboard */,
 				C8E537581C7200D50079B582 /* Info.plist */,
+				C8E5377A1C7202CE0079B582 /* kontaktControlTableViewController.swift */,
 			);
 			path = mail2;
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E5377B1C7202CE0079B582 /* kontaktControlTableViewController.swift in Sources */,
 				C8E5374F1C7200D50079B582 /* ViewController.swift in Sources */,
 				C8E5374D1C7200D50079B582 /* AppDelegate.swift in Sources */,
 			);
